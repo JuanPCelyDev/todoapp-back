@@ -1,0 +1,24 @@
+# Archivos compilados / build de Maven
+target/
+*.class
+
+# Archivos de configuración sensible (NUNCA subir)
+.env
+
+# Archivos y carpetas de IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
