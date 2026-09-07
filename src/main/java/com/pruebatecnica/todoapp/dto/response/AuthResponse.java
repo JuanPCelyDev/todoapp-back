@@ -4,10 +4,10 @@ public record AuthResponse(
     String token,
     String type,
     String email,
-    String username
+    String name
 ) {
-    public AuthResponse(String token, String email, String username) {
-        this(token, "Bearer", email, username);
+    public AuthResponse(String token, String email, String name) {
+        this(token, "Bearer", email, name);
     }
     
 }
