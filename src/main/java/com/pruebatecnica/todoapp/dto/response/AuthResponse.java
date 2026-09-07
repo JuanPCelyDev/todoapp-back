@@ -3,11 +3,11 @@ package com.pruebatecnica.todoapp.dto.response;
 public record AuthResponse(
     String token,
     String type,
-    String username,
-    String email
+    String email,
+    String username
 ) {
-    public AuthResponse(String token, String email, String name) {
-        this(token, "Bearer", email, name);
+    public AuthResponse(String token, String email, String username) {
+        this(token, "Bearer", email, username);
     }
     
 }
